@@ -11,6 +11,7 @@
 
     <!--CSS link-->
     <link href="css.css" rel="stylesheet">
+
     <!--Google fonts links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,16 +21,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Holtwood+One+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
 
 </head>
-<>
+<body>
 
 <!--Navbar-->
-<div class="container-fluid d-flex justify-content-center align-items-center">
+<div class="container mt-5 d-flex justify-content-center align-items-center">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="logo beje.png" class="d-inline-block align-items-center logo">
+                <img src="logo beje.png" class="d-inline-block align-items-start logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -43,9 +44,6 @@
                 <li class="nav-item">
                 <a class="nav-link active" href="#projetos">Projetos</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link active" href="#contato">Contato</a>
-                </li>
                 </ul>
             </div>
         </div>
@@ -55,30 +53,39 @@
 <div class="space3"></div>
 
 <!--Home-->
-<div class="container-fluid d-flex justify-content-center">
+<div class="container mt-5 d-flex justify-content-center">
     <img src="titlee (1)-Photoroom.png" class="img-fluid titulo">
 </div>
 
 <div class="space4"></div>
-<div id="sobre" class="space2"></div>
+<div id="sobre" class="space1"></div>
 
 <!--Sobre-->
 <div class="container mt-5">
-    <div class="row g-4 aling-items-start">
+    <div class="row g-4 align-items-center">
         <div class="col-md-6">
         <img src="Avatar2.png" class="img-fluid avatar">
         </div>
             <div class="col-md-6">
-            <div class="space1"></div>
+            <br>
             <h1>Sobre</h1>
-
+            <br>
             <h5>
-            Olá! Meu nome é Clara, sou estudante da Etec de Itanhaém, estou 
+            Olá! Meu nome é Clara, tenho 16 anos, sou estudante da Etec de Itanhaém, estou 
             cursando Informática para Internet integrado com o Ensino Médio. 
             Tenho grande interesse pela a área da tecnologia, desenvolvimento Web,
             designer e sempre busco aprender e crescer nessa área.
             Este portfólio é um espaço para compartilhar as minhas experiências,
             projetos e habilidades que estou desenvolvendo ao longo da minha jornada.
+            </h5>
+            <br>
+            <h2>Hobbies</h2>
+            <br>
+            <h5>
+                Além de me aprofundar no mundo da tecnologia, sou apaixonada por arte. 
+                Gosto de dedicar meu tempo a desenhar, tanto no papel quanto no 
+                digital, e também encontro inspiração ao pintar quadros, onde posso 
+                expressar minha criatividade de maneira especial.
             </h5>
 
             </div>
@@ -86,12 +93,62 @@
 </div> 
 
 
-<!--Habilidades-->
-<div class="container mt-5">
-    <div class="row g-4 align-items-start">
-    <div class="col-md-6">
-        <h1>Habilidades</h1>
 
+<!--Contato-->
+<div class="container mt-5">
+    <div class="row g-4 align-items-center">
+    <div class="col-md-6 ">
+        <br>
+        <h1>Contatos</h1>
+        <br>
+        <h4 class="text-black">
+
+            <img src="envelope-solid.svg" class="icons icons-link">
+            claralopes.ro@gmail.com
+            <br><br>
+            <a href="https://github.com/Claralops">
+            <img src="github (1).svg" class="icons icons-link">
+        </a>
+            Claralops
+
+            <br><br>
+            <a href="https://www.instagram.com/clar4_ye/">
+            <img src="instagram (1).svg" class="icons icons-link">
+            </a>
+            clar4_ye
+        </h4>
+    </div>
+
+<!--Educação-->
+        <div class="col-md-6">
+            <br>
+            <h1>Educação</h1>
+            <br>
+            <h4>(2015-2019) Primeiro Fundamental</h4>
+            <br>
+            <h4>(2020-2023) Segundo Fundamental</h4>
+            <br>
+            <h4>
+                (2024-....) Ensino Médio Integrado - 
+                Curso Técnico de Informática Para Internet
+            </h4>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div id="habi" class="space1"></div>
+
+
+<!--Habilidades-->
+    <div class="container mt-5">
+    <div class="row g-4 align-items-center">
+    <div class="col-md-6">
+        <div class="space2"></div>
+        <h1>Habilidades</h1>
+        <br>
         <h4>Html</h4>
         <div class="progress mb-3">
         <div class="progress-bar" style="width: 65%;">65%</div>
@@ -122,41 +179,15 @@
         <div class="progress-bar" style="width: 25%;">25%</div>
         </div>
     </div>
-    
-    <div class="col-md-6">
-        <h1>Educação</h1>
 
-        <h4>(2015-2019) Primeiro Fundamental</h4>
-
-        <h4>(2020-2023) Segundo Fundamental</h4>
-
-        <h4>
-            (2024-....) Ensino Médio Integrado - 
-            Curso Técnico de Informática Para Internet
-        </h4>
-        
-        <h2>Hobbies</h2>
-
-        <h5>
-            Além de me aprofundar no mundo da tecnologia, sou apaixonada por arte. 
-            Gosto de dedicar meu tempo a desenhar, tanto no papel quanto no 
-            digital, e também encontro inspiração ao pintar quadros, onde posso 
-            expressar minha criatividade de maneira especial.
-        </h5>
-    </div>
-    </div>
-</div>
-
-<div id="projetos" class="space1"></div>
-
-<!--Projetos-->
-<section class="container mt-5">
-    <h1 class="text-center">Projetos</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-5 mt-4">
+<!--Cards de atividades-->
+<div class="col-md-6">
+        <h1 class="text-center">Atividades</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-5 mt-3">
 
         <div class="col">
             <div class="card card-link card-text h-70">
-                <a href="#">
+                <a href="https://github.com/Claralops/Interface-web">
                     <img src="interface web.png" class="card-img-top">
                 </a>
                 <div class="card-body">
@@ -167,7 +198,7 @@
 
         <div class="col">
             <div class="card card-link card-text h-70">
-                <a href="#">
+                <a href="https://github.com/Claralops/Programacao-e-algoritmo">
                     <img src="pa.png" class="card-img-top">
                 </a>
                 <div class="card-body">
@@ -178,7 +209,7 @@
 
         <div class="col">
             <div class="card card-link card-text h-70">
-                <a href="#">
+                <a href="https://github.com/Claralops/Arte-digital">
                     <img src="arte digital.png" class="card-img-top">
                 </a>
                 <div class="card-body">
@@ -188,82 +219,65 @@
         </div>
 
     </div>
-</section>
-<div class="container mt-5">
-    <h4 class="text-center">Repositórios no GitHub</h4>
 </div>
 
 
-<!--CONTATO-->
-<div id="contato" class="space2"></div>
 
-<div class="container mt-5 d-flex justify-content-center">
-    <div class="col-md-6">
-    <div class="form-container">
-        <h1 class="text-center"> Contato</h1>
-
-        <form action="#" method="POST">
-            <div class="form-group">
-            <label for="Usuario">Usuário</label>
-            <input type="text" class="form-control" placeholder="Nome">
+<!--Projetos-->
+<div id="projetos" class="space1"></div>
+<div class="container mt-5 ">
+    <h1 class="text-center">Projetos</h1>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-5 mt-3">
+    <div class="col">
+    <div class="card card-proj mb-3">
+            <img src="port.png" class="img-fluid rounded-start card-img">
+            <div class="card-body">
+              <h4>Portfólio</h4>
+              <h6> Construção de um portfólio com o bootstrap</h6>
+              <p>11/12/2024</p>
+              <br>
+              <a href="https://github.com/Claralops/portfolio" class="btn">Repositório</a>
             </div>
-
-            <div class="form-group">
-            <label for="Email">E-mail</label>
-            <input type="text" class="form-control" placeholder="E-mail">
-            </div>
-
-            <div class="form-group">
-            <label for="Comentario">Comentário</label>
-            <textarea name="caixa" class="form-control" rows="5" required placeholder="Comentário"></textarea>
-            </div>
-
-            <br>
-
-            <button class="btn"> Enviar</button>
-        </form>
     </div>
     </div>
+    <div class="col">
+    <div class="card card-proj mb-3">
+        <img src="fundinho azul.png" class="img-fluid rounded-start card-img">
+        <div class="card-body">
+          <h4>Aguardando próximos projetos</h4>
+          <p>--/--/----</p>
+          <br>
+          <a class="btn">Repositório</a>
+        </div>
+    </div>
+    </div>    
+
+    <div class="col">
+        <div class="card card-proj mb-3">
+            <img src="fundinho azul.png" class="img-fluid rounded-start card-img">
+            <div class="card-body">
+              <h4>Aguardando próximos projetos</h4>
+                <p>--/--/----</p>
+              <br>
+              <a class="btn">Repositório</a>
+            </div>
+        </div>
+        </div>    
+</div>
+</div>
+
+<div class="container mt-5">
+    <h5 class="text-center">Todos os repositórios no GitHub</h5>
 </div>
 
 <div class="space3"></div>
 
 <!--RODAPÉ-->
-<footer class="bg-azul text-start py-4">
+<footer class="bg-beje text-center py-4 w-100 ">
     <div class="container">
-        <div class="d-flex justify-content-center">
-
-            <div class="icons-link">
-            <a href="https://www.instagram.com/clar4_ye/">
-            <img src="instagram (1).svg" class="img-fluid icons">
-            </a>
-            </div>
-
-            <div class="icons-link">
-            <a href="">
-            <img src="github (1).svg" class="img-fluid icons">
-            </a>
-            </div>
-
-            <div class="icons-link">
-            <a href="">
-            <img src="linkedin (1).svg" class="img-fluid icons">
-            </a>
-            </div>
-
-            <div class="icons-link">
-            <a href="">
-            <img src="twitter-x (1).svg" class="img-fluid icons">
-            </a>
-            </div>
-
-        </div>
-
-            <br>
-            <div class="d-flex justify-content-center">
-            <p>© Todos os Diretos Reservados - Clara Lopes Romão</p>
-            </div>
-    </div>
+    <p>© Todos os Diretos Reservados - Clara Lopes Romão</p>
+</div>
 </footer> 
 
 </body>
