@@ -1,0 +1,175 @@
+/*ESPAÇO*/
+.space1{
+    height: 50px;
+}
+.space2{
+    height: 100px;
+}
+.space3{
+    height: 200px;
+}
+.space4{
+    height: 300px;
+}
+
+/*TIPOGRAFIA*/
+h1,h2{
+    font-family: "Bree serif", serif;
+    font-weight: 400;
+    font-style: normal; 
+ }
+h4,h5{
+     font-family: "Nunito",sans-serif;
+     font-style: oblique;
+}
+h4{
+    color: #7845a7;
+}
+
+ 
+ /*CORES*/
+.bg-roxo{
+     background-color: #7845a7 ;
+}
+.bg-azul{
+     background-color: #50579c;
+}
+.bg-light-azul{
+     background-color: #a3a2d5;
+}
+.bg.beje{
+     color:  #f4e9d6;
+}
+
+
+
+/*IMAGENS*/
+/*tamanho do título*/
+.titulo{
+    width: 600px;
+}
+/*tamanho do avatar*/
+.avatar{
+    width: 365px;
+    height: 420px;
+}
+/*tamanho da logo*/
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+
+
+/*Fundo do site*/
+body{
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4e9d6;
+}
+
+
+
+/*NAVBAR*/
+/*Cor da navbar e sombra*/
+.navbar{
+    background-color: #50579c;
+    box-shadow: 0 3px 10px hsl(214, 23%, 34%);
+
+}
+/*botões da navbar*/
+.nav-link {
+    position: relative;    text-decoration: none;
+    color: #f4e9d6;
+    transition: color 0.5s ease;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f4e9d6; 
+    transition: 0.2s ease;
+}
+.nav-link:hover::after {
+    width: 100%; 
+}
+
+
+
+/*BARRA DE PROGRESSO*/
+.progress{
+    height: 20px;
+    width: 80%;
+    background-color:#a3a2d5;
+}
+.progress-bar{
+    background-color: #50579c;
+}
+
+
+
+/*CARD*/
+.card{
+    background-color: #a3a2d5;
+    box-shadow: 0px 0px 10px 0px #50579c;
+    width: 24rem;
+    height: 28rem;
+}
+/*transição de quando passa o mouse*/
+.card-link{
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.card-link:hover{
+    transform: scale(1.1);
+}
+/*cor do texto*/
+.card-text{
+    color: #50579c;
+}
+
+
+
+/*CONTATO*/
+.form-container{
+    margin: auto;
+    width: 100vh;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #a3a2d5;
+    box-shadow: 0px 0px 10px 0px #50579c;
+}
+
+/*Botão*/
+.btn{
+    background-color: #50579c;
+    color: #f4e9d6;
+}
+.btn:hover{
+    background-color: #393f74;
+    color: #f4e9d6;
+}
+
+
+
+/*Icons*/
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.icons-link{
+    display: inline-block;
+    overflow: hidden;
+    transform: transform 0.3s ease, opacity 0.3 ease;
+}
+.icons-link:hover{
+    transform: scale(1.1);
+}
